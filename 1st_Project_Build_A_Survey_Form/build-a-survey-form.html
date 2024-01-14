@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <main>
+      <h1 id="title">Survey Form</h1>
+      <p id="description" class="description">Survey Form to pass the project for freeCodeCamp</p>
+      <form id="survey-form">
+        <fieldset>
+        <label for="name" id="name-label">What's your name?
+          <input id="name" type="text" name="name" placeholder="enter your name" required>
+        </label>
+        <label for="email" id="email-label">What's your e-mail?
+          <input id="email" type="email" name="email" placeholder="enter your e-mail" required>
+        </label>
+        <label for="number" id="number-label">What's your number?
+          <input id="number" type="number" min="0" max= "69" name="number" placeholder="enter a number if you want">
+        </label>
+        </fieldset>
+        <fieldset>
+        <label for="dropdown">Select your favorite animal:
+          <select id="dropdown">
+            <option>Horses</option>
+            <option>Cats</option>
+            <option>Dogs</option>
+          </select>
+        </label>
+        <p>Are you a female or a male?</p>
+        <label for="female">
+          <input id="female" type="radio" name="male-female" value="female" class="inline" checked>Female
+        </label>
+        <label for="male">
+          <input id="male" type="radio" name="male-female" value="male" class="inline">Male
+        </label>
+        <p>Select some options:</p>
+        <label for="1">
+          <input id="1" type="checkbox" name="checkboxes" value="1" class="inline"> Option 1
+        </label>
+        <label for="2">
+          <input id="2" type="checkbox" name="checkboxes" value="2" class="inline"> Option 2
+        </label>
+        <label for="3">
+          <input id="3" type="checkbox" name="checkboxes" value="3" class="inline"> Option 3
+        </label>
+        <label for="4">
+          <input id="4" type="checkbox" name="checkboxes" value="4" class="inline"> Option 4
+        </label>
+        </fieldset>
+        <fieldset>
+          <label for="comments">Provide additional (optional) comments:
+            <textarea id="comments"></textarea>
+          </label>
+        </fieldset>
+        <button id="submit" type="submit">Submit</button>
+      </form>
+    </main>
+    <footer></footer>
+  </body>
+</html>

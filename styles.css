@@ -1,10 +1,14 @@
+* {
+	box-sizing: border-box;
+}
+
 body {
   width: 100%;
   height: 100vh;
   margin: 0 3em;
   background-color: #ffc7b9;
   color: #330a00;
-  font-family: Tahoma;
+  font-family: Tahoma, sans-serif;
   font-size: 16px;
 }
 
